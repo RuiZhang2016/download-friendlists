@@ -27,7 +27,7 @@ def download_friends(user, API, mydir):
 		return 1
 
 def extract_users():
-	mydir = "../cascades/more-than-30/"
+	mydir = "../cascades/general/"
 	files = os.listdir(mydir)
 	nfiles = len(files)
 	userIds = []
